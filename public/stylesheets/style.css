@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(34, 34, 49);
+    color: cornsilk;
+    font-family: 'Pacifico', cursive;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 105px;
+}
+section {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#myWord {
+    border-radius: 10px;
+    height: 4vh;
+    width: 40vw;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+#myWord:focus {
+ outline: none;
+ color: rgb(34, 34, 49);
+ background-color: rgb(247, 175, 125);   
+ border: 3px solid rgb(247, 80, 3);
+ border-radius: 10px;
+}
+button {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 15px;
+    background-color: antiquewhite;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Pacifico', cursive;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(247, 80, 3);
+}
+.row {
+    margin-top: 1vh;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid antiquewhite;
+    
+
+}
+.left, .right {
+    width: 50%;
+    height: 3vh;
+    background-color: antiquewhite;
+    color: rgb(34, 34, 49);
+    font-size: 600;
+    
+}
+.left {
+    border-right: 1px solid rgb(34, 34, 49);
+}
+
+.ajout {
+    width: 27px;
+    height: 27px;
+    background-color: rgb(34, 34, 49);
+    
+}
+.ajout:hover {
+    color: rgb(34, 34, 49);
+    background-color: rgb(247, 80, 3);
+    cursor: pointer;
+}
+.clicked {
+    width: 27px;
+    height: 27px;
+    background-color: rgb(247, 80, 3);
+    color: rgb(34, 34, 49);
+}
